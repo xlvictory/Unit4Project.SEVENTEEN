@@ -34,19 +34,19 @@ const albums = [
         title: "17 Carat",
         releaseDate: "2015-05-29",
         description: "description goes here!!",
-        // listenLink: "https://open.spotify.com/album/0H2K2JrzdvJcxBEPyxC2sl"
+        listenLink: "https://open.spotify.com/album/0H2K2JrzdvJcxBEPyxC2sl"
     },
     {
         title: "Boys Be",
         releaseDate: "2015-09-10",
         description: "description goes here!!",
-        // listenLink: "https://open.spotify.com/album/18aXrsD7zdPD6NSIfdwExD"
+        listenLink: "https://open.spotify.com/album/18aXrsD7zdPD6NSIfdwExD"
     },
     {
         title: "Love&Letter",
         releaseDate: "2016-04-25",
         description: "description goes here!!",
-        // listenLink: "https://open.spotify.com/album/50BrkBakrLWufmTLjCVBwn"
+        listenLink: "https://open.spotify.com/album/50BrkBakrLWufmTLjCVBwn"
     }
 ];
 
@@ -54,12 +54,12 @@ const musicVids = [
     {
         title: "Adore U",
         releaseDate: "2015-05-26",
-        // watchLink: "linky link here!!"
+        watchLink: "linky link here!!"
     },
     {
         title: "Mansae",
         releaseDate: "2015-09-09",
-        // watchLink: "linky link here!!"
+        watchLink: "linky link here!!"
     }
 ];
 
