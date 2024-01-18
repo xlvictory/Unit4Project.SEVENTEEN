@@ -1,8 +1,8 @@
 const express = require('express');
 const router = express.Router();
-const { getAllMv, getMvById } = require('../server/db/helpers/MVs');
+const { getAllMv, getMvById } = require('../db/helpers/MVs');
 
-router.get('/MVs', async (req, res, next) => {
+router.get('/', async (req, res, next) => {
     try {
         const mv = await getAllMv();
         res.send(mv);
@@ -11,7 +11,7 @@ router.get('/MVs', async (req, res, next) => {
     }
 });
 
-router.get('/MVs/:id', async (req, res, next) => {
+router.get('/:id', async (req, res, next) => {
     try {
         const mv = await getMvById(req.params.id);
         res.send(mv);

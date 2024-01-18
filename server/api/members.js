@@ -1,10 +1,10 @@
 const express = require('express');
 const router = express.Router();
-const { getAllMembers, getMemberById } = require('../server/db/helpers/members');
+const { getAllMembers, getMemberById } = require('../db/helpers/members');
 
 
 // GET - fetch all members
-router.get('/members', async (req, res, next) => {
+router.get('/', async (req, res, next) => {
     try {
         const member = await getAllMembers();
         res.send(member);

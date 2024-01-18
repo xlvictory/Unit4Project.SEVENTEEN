@@ -1,6 +1,9 @@
 const express = require('express');
 const app = express();
 const PORT = 8080;
+const client = require('./db/client');
+
+client.connect();
 
 app.get('/', (req, res) => {
     res.send("Hello World!");
