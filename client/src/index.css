@@ -1,1 +1,39 @@
 /*placeholder*/
+body {
+    background-color: #ffdcdb;
+}
+
+#members {
+    padding: 20px;
+    border: 3px solid #91A8D0;
+    margin-bottom: 25px;
+    text-align: center;
+    background-color: 	#b4c8ea;
+}
+
+#members-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+img {
+    height: 250px;
+    width: 175px;
+    object-fit: contain;
+    text-align: center;
+  }
+
+  h2 {
+    text-align: center;
+    color: aliceblue
+  }
+
+  button {
+    border: 2px solid #f7cac9;
+    background-color: #f7cac9;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: white;
+  }

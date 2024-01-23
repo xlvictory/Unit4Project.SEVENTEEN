@@ -21,14 +21,14 @@ export default function Members() {
     }, []);
 console.log(member);
     return (
-        <>
-        <div>
-            <h1>Members</h1>
+        <><h1>Members</h1>
+        <div id='members-container'>
+            
           {
             member.map((mem) => {
               return (
                 <div id='members'>
-                <h4>{mem.stageName}</h4>
+                <h2>{mem.stageName}</h2>
                 <img src={mem.image} alt={mem.stageName} /><br />  
                   <p>{<SeeMemberDetails mem_id={mem.mem_id} />}</p>
                 </div>
