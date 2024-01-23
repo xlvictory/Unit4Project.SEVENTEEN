@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import SeeAlbumDetails from "./button components/SeeAlbumDetails";
 
 const API_URL = "http://localhost:8080/api";
 
@@ -28,9 +29,7 @@ export default function Albums() {
                 <div id='albums'>
                 <img src={album.image} alt={album.title} /><br />
                   <h4>{album.title}</h4>
-                  <p>{album.releaseDate}</p>
-                  <p>{album.description}</p>
-                  <a href={album.listenLink}>Listen on Spotify</a>
+                  <p>{<SeeAlbumDetails album_id={album.album_id} />}</p>
                 </div>
               )
             })

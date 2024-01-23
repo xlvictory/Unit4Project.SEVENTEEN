@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import SeeMemberDetails from "./button components/SeeMemberDetails";
 
 const API_URL = "http://localhost:8080/api";
 
@@ -27,8 +28,9 @@ console.log(member);
             member.map((mem) => {
               return (
                 <div id='members'>
-                <img src={mem.image} alt={mem.stageName} /><br />
-                  <h4>{mem.stageName}</h4>
+                <h4>{mem.stageName}</h4>
+                <img src={mem.image} alt={mem.stageName} /><br />  
+                  <p>{<SeeMemberDetails mem_id={mem.mem_id} />}</p>
                 </div>
               )
             })
