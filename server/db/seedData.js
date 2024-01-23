@@ -1,7 +1,7 @@
 const svtMembers = [
     {
         stageName: "S.Coups",
-        realName: "Seungcheol Choi",
+        realName: "Choi Seungcheol (최승철)",
         position: "Leader",
         unit: "Hip-hop",
         birthday: "1995-08-10",
@@ -11,25 +11,128 @@ const svtMembers = [
     },
     {
         stageName: "Jeonghan",
-        realName: "Jeonghan Yoon",
+        realName: "Yoon Jeonghan (윤정한)",
         position: "Vocalist",
         unit: "Vocal",
         birthday: "1995-10-04",
         zodiacSign: "Libra",
         nationality: "Korean",
-        image: "https://kprofiles.com/wp-content/uploads/2016/04/JEONGHAN-4-571x800.jpg"
+        image: "https://pbs.twimg.com/media/F8Km1CBaoAA-8Vp?format=jpg&name=4096x4096"
     },
     {
         stageName: "Joshua",
         realName: "Joshua Hong",
-        koreanName: "Jisoo Hong",
+        koreanName: "Hong Jisoo (홍지수)",
         position: "Vocalist",
         unit: "Vocal",
         birthday: "1995-12-30",
         zodiacSign: "Capricorn",
         nationality: "Korean-American",
         image: "https://pbs.twimg.com/media/F8FfFWpbkAAVhvA?format=jpg&name=4096x4096"
-    }
+    },
+    {
+        stageName: "Jun",
+        realName: "Wen Junhui (文俊辉)",
+        koreanName: "Moon Junhwi (문준휘)",
+        position: "Dancer",
+        unit: "Performance",
+        birthday: "1996-06-10",
+        zodiacSign: "Gemini",
+        nationality: "Chinese",
+        image: "https://pbs.twimg.com/media/F8KmoKoaQAAKHd8?format=jpg&name=4096x4096"
+    },
+    {
+        stageName: "Hoshi",
+        realName: "Kwon Soonyoung (권순영)",
+        position: "Dancer",
+        unit: "Performance",
+        birthday: "1996-06-15",
+        zodiacSign: "Gemini",
+        nationality: "Korean",
+        image: "https://pbs.twimg.com/media/F8FeyKFaEAAXLNA?format=jpg&name=4096x4096"
+    },
+    {
+        stageName: "Wonwoo",
+        realName: "Jeon Wonwoo (전원우)",
+        position: "Rapper",
+        unit: "Hip-hop",
+        birthday: "1996-07-17",
+        zodiacSign: "Cancer",
+        nationality: "Korean",
+        image: "https://pbs.twimg.com/media/F8Fe94zacAA7C09?format=jpg&name=4096x4096"
+    },
+    {
+        stageName: "Woozi",
+        realName: "Lee Jihoon (이지훈)",
+        position: "Vocalist",
+        unit: "Vocal",
+        birthday: "1996-11-22",
+        zodiacSign: "Sagittarius",
+        nationality: "Korean",
+        image: "https://pbs.twimg.com/media/F8FfM1HakAAmmDx?format=jpg&name=4096x4096"
+    },
+    {
+        stageName: "DK",
+        realName: "Kim Seokmin (이석민)",
+        position: "Vocalist",
+        unit: "Vocal",
+        birthday: "1997-02-18",
+        zodiacSign: "Aquarius",
+        nationality: "Korean",
+        image: "https://pbs.twimg.com/media/F8KnSlJawAABS27?format=jpg&name=4096x4096"
+    },
+    {
+        stageName: "Mingyu",
+        realName: "Kim Mingyu (김민규)",
+        position: "Rapper",
+        unit: "Hip-hop",
+        birthday: "1997-04-06",
+        zodiacSign: "Aries",
+        nationality: "Korean",
+        image: "https://pbs.twimg.com/media/F8FfSCebsAA7d4k?format=jpg&name=4096x4096"
+    },
+    {
+        stageName: "The8",
+        realName: "Xu Minghao (徐明浩)",
+        koreanName: "Seo Myungho (서명호)",
+        position: "Dancer",
+        unit: "Performance",
+        birthday: "1997-11-07",
+        zodiacSign: "Scorpio",
+        nationality: "Chinese",
+        image: "https://static.wikia.nocookie.net/girlgroup/images/2/22/The8_Seventeenth_Heaven_AM_5-26_Ver_2.jpg/revision/latest/scale-to-width/360?cb=20231027074605"
+    },
+    {
+        stageName: "Seungkwan",
+        realName: "Boo Seungkwan (부승관)",
+        position: "Vocalist",
+        unit: "Vocal",
+        birthday: "1998-01-16",
+        zodiacSign: "Capricorn",
+        nationality: "Korean",
+        image: "https://pbs.twimg.com/media/F8FfAVdbUAAsJhn?format=jpg&name=4096x4096"
+    },
+    {
+        stageName: "Vernon",
+        realName: "Hansol Vernon Chwe",
+        koreanName: "Choi Hansol (최한솔)",
+        position: "Rapper",
+        unit: "Hip-hop",
+        birthday: "1998-02-18",
+        zodiacSign: "Aquarius",
+        nationality: "Korean-American",
+        image: "https://pbs.twimg.com/media/F8KnW3Ea0AAOBzv?format=jpg&name=4096x4096"
+    },
+    {
+        stageName: "Dino",
+        realName: "Lee Chan (이찬)",
+        position: "Dancer",
+        unit: "Performance",
+        birthday: "1999-02-11",
+        zodiacSign: "Aquarius",
+        nationality: "Korean",
+        image: "https://pbs.twimg.com/media/F8FfKTRbkAAVmMt?format=jpg&name=4096x4096"
+    },
 ];
 
 const albums = [

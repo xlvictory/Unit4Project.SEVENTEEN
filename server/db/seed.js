@@ -26,13 +26,13 @@ const createTables = async () => {
         CREATE TABLE svtMembers (
             mem_id SERIAL PRIMARY KEY,
             "stageName" varchar(10) UNIQUE NOT NULL,
-            "realName" varchar(20) UNIQUE NOT NULL,
-            "koreanName" varchar(20) UNIQUE,
+            "realName" varchar(50) UNIQUE NOT NULL,
+            "koreanName" varchar(50) UNIQUE,
             position varchar(20) NOT NULL,
             unit varchar(11) NOT NULL,
             birthday DATE NOT NULL,
             "zodiacSign" varchar(11) NOT NULL,
-            nationality varchar(20) NOT NULL,
+            nationality varchar(30) NOT NULL,
             image TEXT
         );
 
