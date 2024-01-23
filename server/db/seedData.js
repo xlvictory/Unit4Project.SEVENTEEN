@@ -100,7 +100,7 @@ const svtMembers = [
         birthday: "1997-11-07",
         zodiacSign: "Scorpio",
         nationality: "Chinese",
-        image: "https://static.wikia.nocookie.net/girlgroup/images/2/22/The8_Seventeenth_Heaven_AM_5-26_Ver_2.jpg/revision/latest/scale-to-width/360?cb=20231027074605"
+        image: "https://pbs.twimg.com/media/F8FddvdaMAAgVPU?format=jpg&name=4096x4096"
     },
     {
         stageName: "Seungkwan",
