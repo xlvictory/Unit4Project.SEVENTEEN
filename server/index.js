@@ -2,6 +2,9 @@ const express = require('express');
 const app = express();
 const PORT = 8080;
 const client = require('./db/client');
+const cors = require('cors');
+
+app.use(cors());
 
 client.connect();
 
