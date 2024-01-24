@@ -9,5 +9,6 @@ router.get('/health', (req, res, next) => {
 router.use('/members', require('./members'));
 router.use('/albums', require('./albums'));
 router.use('/MVs', require('./MVs'));
+router.use('/carat', require('./carat'));
 
 module.exports = router;

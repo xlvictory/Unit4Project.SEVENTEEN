@@ -21,7 +21,7 @@ const getAlbumById = async (album_id) => {
         FROM albums
         WHERE "album_id" =${album_id};
         `)
-        return album_id
+        return albums;
     } catch(error) {
         console.error(error);
     }

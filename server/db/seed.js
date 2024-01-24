@@ -9,6 +9,7 @@ const dropTables = async () => {
         DROP TABLE IF EXISTS svtMembers;
         DROP TABLE IF EXISTS musicVids;
         DROP TABLE IF EXISTS albums;
+        DROP TABLE IF EXISTS carat;
         
         `)
         console.log("Tables dropped!")
@@ -45,12 +46,20 @@ const createTables = async () => {
             image TEXT
         );
 
-         CREATE TABLE musicVids (
+        CREATE TABLE musicVids (
             mv_id SERIAL PRIMARY KEY,
             title varchar(50) UNIQUE NOT NULL,
             "releaseDate" DATE NOT NULL,
             "watchLink" TEXT,
             album_id INTEGER REFERENCES albums(album_id)
+        );
+
+        CREATE TABLE carat (
+            carat_id SERIAL PRIMARY KEY,
+            first_name varchar(50) NOT NULL,
+            username varchar(30) UNIQUE NOT NULL,
+            email varchar(50) UNIQUE NOT NULL,
+            password varchar(30) NOT NULL
         );
     `);
     console.log("Tables built!")

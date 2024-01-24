@@ -156,7 +156,119 @@ const albums = [
         description: "description goes here!!",
         listenLink: "https://open.spotify.com/album/50BrkBakrLWufmTLjCVBwn",
         image: "https://upload.wikimedia.org/wikipedia/en/d/de/Seventeen_-_Love_and_Letter.jpg"
-    }
+    },
+    {
+        title: "Love&Letter: 1st Repackage Album",
+        releaseDate: "2016-07-04",
+        description: "description goes here!!",
+        listenLink: "https://open.spotify.com/album/7mP7AFehQDonPKEQiXvpvB",
+        image: "https://m.media-amazon.com/images/I/61v+OPTqoiL.jpg"
+    },
+    {
+        title: "Going Seventeen",
+        releaseDate: "2016-12-05",
+        description: "description goes here!!",
+        listenLink: "https://open.spotify.com/album/3wXGFboFgcK9ezbPuSrKk9",
+        image: "https://upload.wikimedia.org/wikipedia/en/f/f5/Going_Seventeen_EP.jpg"
+    },
+    {
+        title: "Al1",
+        releaseDate: "2017-05-22",
+        description: "description goes here!!",
+        listenLink: "https://open.spotify.com/album/2BNimvLLlD89e4Sb7ZVX6I",
+        image: "https://upload.wikimedia.org/wikipedia/en/1/11/Seventeen_-_Al1.png"
+    },
+    {
+        title: "TEEN, AGE",
+        releaseDate: "2017-11-06",
+        description: "description goes here!!",
+        listenLink: "https://open.spotify.com/album/5aHdNainJWMc3n2AqfiOg5",
+        image: "https://upload.wikimedia.org/wikipedia/en/d/d5/Teen%2C_Age_Seventeen_Album_Cover.png"
+    },
+    {
+        title: "Director's Cut",
+        releaseDate: "2018-02-05",
+        description: "description goes here!!",
+        listenLink: "https://open.spotify.com/album/5QpD7kgp5dpkNFuG6ez2yI",
+        image: ""
+    },
+    {
+        title: "You Make My Day",
+        releaseDate: "2018-07-16",
+        description: "description goes here!!",
+        listenLink: "https://open.spotify.com/album/7ayq6V3xwXGOScUqhvIyFl",
+        image: "https://upload.wikimedia.org/wikipedia/en/8/82/You_make_my_day_seventeen_artwork.png"
+    },
+    {
+        title: "You Made My Dawn",
+        releaseDate: "2019-01-21",
+        description: "description goes here!!",
+        listenLink: "https://open.spotify.com/album/1Or4crj0DlitdTRp36TjnT",
+        image: "https://upload.wikimedia.org/wikipedia/en/a/aa/Seventeen_-_You_Made_My_Dawn.png"
+    },
+    {
+        title: "An Ode",
+        releaseDate: "2019-09-16",
+        description: "description goes here!!",
+        listenLink: "https://open.spotify.com/album/5HlxNTQpJb7buoWIRS4M7T",
+        image: "https://upload.wikimedia.org/wikipedia/en/6/66/Seventeen_-_An_Ode.png"
+    },
+    {
+        title: "Heng:garae",
+        releaseDate: "2020-06-22",
+        description: "description goes here!!",
+        listenLink: "https://open.spotify.com/album/3q6lN3kfsDgGaQUC7kVASH",
+        image: "https://upload.wikimedia.org/wikipedia/en/5/51/Henggarae_seventeen_artwork.png"
+    },
+    {
+        title: "Semicolon",
+        releaseDate: "2020-10-19",
+        description: "description goes here!!",
+        listenLink: "https://open.spotify.com/album/1EMYSiKKTSKLZrOC2nTStL",
+        image: "https://upload.wikimedia.org/wikipedia/commons/5/5d/Seventeen_-_Semicolon.png"
+    },
+    {
+        title: "Your Choice",
+        releaseDate: "2021-06-18",
+        description: "description goes here!!",
+        listenLink: "https://open.spotify.com/album/79VvXTQNeLr8KmvcdxN0Pc",
+        image: "https://kprofiles.com/wp-content/uploads/2020/01/Your-Choice.jpg"
+    },
+    {
+        title: "Attacca",
+        releaseDate: "2021-10-22",
+        description: "description goes here!!",
+        listenLink: "https://open.spotify.com/album/2PIReru2w5i4JXOzeZnamd",
+        image: "https://upload.wikimedia.org/wikipedia/en/7/75/Seventeen_-_Attacca.png"
+    },
+    {
+        title: "Face the Sun",
+        releaseDate: "2022-05-27",
+        description: "description goes here!!",
+        listenLink: "https://open.spotify.com/album/4lfFgz2rD1irxf7dZhNJht",
+        image: "https://upload.wikimedia.org/wikipedia/en/b/b1/Seventeen_-_Face_the_Sun.png"
+    },
+    {
+        title: "SECTOR 17: 2nd Repackage Album",
+        releaseDate: "2022-07-18",
+        description: "description goes here!!",
+        listenLink: "https://open.spotify.com/album/15pRJdCJtDyzQaY9tGs750",
+        image: "https://thekmeal.com/wp-content/uploads/2022/07/Seventeen-sector-17.jpg"
+    },
+    {
+        title: "FML",
+        releaseDate: "2023-04-24",
+        description: "description goes here!!",
+        listenLink: "https://open.spotify.com/album/1JBzeeCJ3axQMVkqWbKh0I",
+        image: "https://upload.wikimedia.org/wikipedia/commons/a/a2/Seventeen_-_FML.png"
+    },
+    {
+        title: "Seventeenth Heaven",
+        releaseDate: "2023-10-23",
+        description: "description goes here!!",
+        listenLink: "https://open.spotify.com/album/1rE0Gy69MFUh4GuXafWd0f",
+        image: "https://upload.wikimedia.org/wikipedia/en/a/ab/Seventeen_-_Seventeenth_Heaven.png"
+    },
 ];
 
 const musicVids = [
