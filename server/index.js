@@ -4,7 +4,7 @@ const PORT = 8080;
 const client = require('./db/client');
 const cors = require('cors');
 const morgan = require('morgan');
-const bodyParser = reqire('body-parser');
+const bodyParser = require('body-parser');
 const { COOKIE_SECRET } = require('./secrets')
 const cookieParser = require('cookie-parser')
 

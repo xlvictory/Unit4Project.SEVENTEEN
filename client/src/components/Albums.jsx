@@ -3,7 +3,7 @@ import SeeAlbumDetails from "./button components/SeeAlbumDetails";
 
 const API_URL = "http://localhost:8080/api";
 
-export default function Albums() {
+export default function Albums({ token }) {
     const [album, setAlbum] = useState([]);
 
     useEffect(() => {

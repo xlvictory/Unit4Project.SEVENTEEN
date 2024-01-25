@@ -3,7 +3,7 @@ import SeeMemberDetails from "./button components/SeeMemberDetails";
 
 const API_URL = "http://localhost:8080/api";
 
-export default function Members() {
+export default function Members({ token }) {
     const [member, setMember] = useState([]);
 
     useEffect(() => {
