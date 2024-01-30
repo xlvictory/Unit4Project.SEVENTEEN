@@ -4,23 +4,20 @@ const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 const { JWT_SECRET } = require('../secrets');
 const SALT = 10;
+const { authRequired } = require('./utils');
 
+const { getAllCarats, createUser, getCaratByUsername, getCaratById } = require('../db/helpers/carat');
 
-const { createUser, getCaratByUsername } = require('../db/helpers/carat');
-
-// GET current user
-router.get('/', async (req, res, next) => {
+// GET all carats
+router.get('/', authRequired, async (req, res, next) => {
     try {
-        const token = req.get('Authorization').split(' ')[1];
-        const carat = jwt.verify(token, JWT_SECRET);
-
-        delete carat.iat;
+        const carat = await getAllCarats();
         res.send(carat);
-
     } catch (error) {
         next(error);
     }
 });
+
 
 // POST - create fanclub account
 router.post('/register', async (req, res, next) => {
@@ -62,7 +59,7 @@ router.post('/login', async (req, res, next) => {
 
         delete carat.password;
 
-        if (!user) {
+        if (!carat) {
             throw new Error('Invalid username');
         } else if (!validPw) {
             throw new Error('Invalid password');
@@ -79,6 +76,16 @@ router.post('/login', async (req, res, next) => {
             res.send({ token, carat })
         }
     } catch (error) {
+        next(error);
+    }
+});
+
+//GET - get carat by id
+router.get('/:id', async (req, res, next) => {
+    try {
+        const carat = await getCaratById(req.params.id);
+        res.send(carat);
+    } catch(error) {
         next(error);
     }
 });

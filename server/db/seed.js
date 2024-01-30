@@ -41,7 +41,7 @@ const createTables = async () => {
             album_id SERIAL PRIMARY KEY,
             title varchar(50) UNIQUE NOT NULL,
             "releaseDate" DATE NOT NULL,
-            description varchar(200) NOT NULL,
+            description TEXT NOT NULL,
             "listenLink" TEXT NOT NULL,
             image TEXT
         );
@@ -59,7 +59,7 @@ const createTables = async () => {
             first_name varchar(50) NOT NULL,
             username varchar(30) UNIQUE NOT NULL,
             email varchar(50) UNIQUE NOT NULL,
-            password varchar(30) NOT NULL
+            password TEXT NOT NULL
         );
     `);
     console.log("Tables built!")
