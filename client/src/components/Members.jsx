@@ -22,7 +22,7 @@ export default function Members({ token }) {
     }, []);
 console.log(member);
     return (
-        <><h1>Members</h1>
+        <><div id='mem-title'><h1>Members</h1></div>
         <div id='members-container'>
             
           {

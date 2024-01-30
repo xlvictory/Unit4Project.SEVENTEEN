@@ -117,12 +117,16 @@ Seventeen is considered a "self-producing" idol group, with the members involved
                 <li>Seoul Music Awards: Bonsang Award & Best Album Award – “FML“</li>
             </ul>
         </div>
+
+        <div id="caratbong"><img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0bedb362-1325-47fe-8fb8-8a1224de0221/detzak8-8640f6cf-8bf8-4696-a562-8599625e0960.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzBiZWRiMzYyLTEzMjUtNDdmZS04ZmI4LThhMTIyNGRlMDIyMVwvZGV0emFrOC04NjQwZjZjZi04YmY4LTQ2OTYtYTU2Mi04NTk5NjI1ZTA5NjAuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.zzINqDNLFXeYo1onS1HtxmclPvU_9dw4sfq9gIPHtC4" /></div>
+        
         <div id='socials'>
-<a href="https://www.weverse.io/seventeen/artist"><button>Weverse</button></a><br />
-<a href="https://www.instagram.com/saythename_17/"><button>Instagram</button></a><br />
-<a href="https://twitter.com/pledis_17"><button>Twitter</button></a><br />
-<a href="https://www.youtube.com/user/pledis17/featured"><button>YouTube</button></a><br />
-<a href="https://www.tiktok.com/@seventeen17_official?language=en&sec_uid=MS4wLjABAAAAt2_7QdiMJTk6jO0r1ez1r4yzbNetO9qlUi_FRuO-EGS9g-4aYoS06fzMg13KFTY2&u_code=d9hcjdekd3l76h&utm_source=copy&app=tiktok&iid=6766434501239310081&utm_campaign=client_share&utm_medium=ios&tt_from=copy&user_id=6766434499737781250&source=h5_t"><button>TikTok</button></a><br />
+            <h1>Social Media</h1>
+<a href="https://www.weverse.io/seventeen/artist"><button>Weverse</button></a>
+<a href="https://www.instagram.com/saythename_17/"><button>Instagram</button></a>
+<a href="https://twitter.com/pledis_17"><button>Twitter</button></a>
+<a href="https://www.youtube.com/user/pledis17/featured"><button>YouTube</button></a>
+<a href="https://www.tiktok.com/@seventeen17_official?language=en&sec_uid=MS4wLjABAAAAt2_7QdiMJTk6jO0r1ez1r4yzbNetO9qlUi_FRuO-EGS9g-4aYoS06fzMg13KFTY2&u_code=d9hcjdekd3l76h&utm_source=copy&app=tiktok&iid=6766434501239310081&utm_campaign=client_share&utm_medium=ios&tt_from=copy&user_id=6766434499737781250&source=h5_t"><button>TikTok</button></a>
 <a href="http://cafe.daum.net/pledis-17"><button>Fan Cafe</button></a><br />
     </div>
  </div>

@@ -23,7 +23,7 @@ export default function Albums({ token }) {
 
     return (
         <>
-        <h1>Albums & EPs</h1>
+        <div id='album-title'><h1>Albums & EPs</h1></div>
         <div id='albums-container'>
           {
             album.map((album) => {

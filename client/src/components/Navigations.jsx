@@ -13,7 +13,7 @@ console.log(user);
         <> 
 
             <div id='logo'>
-                <h1>SEVENTEEN <img src={diamond} className="diamond" /></h1>
+                <h1>SEVENTEEN <img src={diamond} className="diamond" /></h1></div>
                 <div id="links">
                     <Link className="home" to='/'>Home</Link>
                 <Link className="members" to='/members'>Members</Link>
@@ -24,7 +24,7 @@ console.log(user);
              {token ? <Link className="acc" to={`/carat/${user.carat.carat_id}`}>Account</Link> : ""}
              {token ? <button id="logout" onClick={() => { setToken(null); navigate('/carat/login') }}>Log Out</button> : ""}
                </div>
-            </div>
+            
         </>
     )
 }

@@ -22,7 +22,7 @@ export default function Albums() {
 
     return (
         <>
-        <h1>Music Videos</h1>
+        <div id='mv-title'><h1>Music Videos</h1></div>
             <div id='mv-container'>
 
                 {
