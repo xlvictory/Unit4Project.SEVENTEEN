@@ -1,10 +1,12 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useContext } from "react";
 import SeeAlbumDetails from "./button components/SeeAlbumDetails";
+import { urlContext } from "./ContextAPI";
 
-const API_URL = "http://localhost:8080/api";
+
 
 export default function Albums({ token }) {
-    const [album, setAlbum] = useState([]);
+      const API_URL = useContext(urlContext);
+      const [album, setAlbum] = useState([]);
 
     useEffect(() => {
         async function fetchAlbums() {
@@ -21,8 +23,8 @@ export default function Albums({ token }) {
 
     return (
         <>
-        <div>
-            <h1>Albums & EPs</h1>
+        <h1>Albums & EPs</h1>
+        <div id='albums-container'>
           {
             album.map((album) => {
               return (

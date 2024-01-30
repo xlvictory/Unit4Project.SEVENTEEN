@@ -5,11 +5,12 @@ import Navigations from './components/Navigations';
 
 function App() {
   const [token, setToken] = useState(null);
+  const [user, setUser] = useState({});
 return (
   <>
   <div id='container'>
-  <Navigations token={token} setToken={setToken} />
-  <NavContainer token={token} setToken={setToken} />
+  <Navigations token={token} setToken={setToken} user={user} setUser={setUser} />
+  <NavContainer token={token} setToken={setToken} user={user} setUser={setUser} />
   </div>
   </>
 )

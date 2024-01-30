@@ -1,8 +1,10 @@
-import { useState, useEffect } from "react";
+import React, { useState, useEffect, useContext } from "react";
+import { urlContext } from "./ContextAPI";
 
-const API_URL = "http://localhost:8080/api";
+
 
 export default function Albums() {
+    const API_URL = useContext(urlContext);
     const [musicVid, setMusicVid] = useState([]);
 
     useEffect(() => {

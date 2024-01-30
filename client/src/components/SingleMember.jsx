@@ -1,11 +1,13 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useContext } from "react";
 import React from "react";
-import { useParams, useNavigate } from "react-router-dom";
+import { useParams, } from "react-router-dom";
 import LessMemberDetails from "./button components/LessMemberDetails";
+import { urlContext } from "./ContextAPI";
 
-const API_URL = "http://localhost:8080/api"
 
-export default function SingleMember() {
+
+export default function SingleMember({ token }) {
+    const API_URL = useContext(urlContext);
     const [selectedMember, setSelectedMember] = useState({});
     const { mem_id } = useParams();
 
@@ -22,8 +24,6 @@ export default function SingleMember() {
         fetchSingleMember();
     }, []);
 
-    const navigate = useNavigate();
-
     return (
         <div id='single-member'>
             <h1>{selectedMember.stageName}</h1>
@@ -32,7 +32,7 @@ export default function SingleMember() {
             {selectedMember.koreanName != null ? <p>Korean Name: {selectedMember.koreanName}</p> : ""}
             <p>Position: {selectedMember.position}</p>
             <p>Unit: {selectedMember.unit}</p>
-            <p>Birthdate: {selectedMember.birthday}</p>
+            <p>Birthdate: {new Date(selectedMember.birthday).toLocaleDateString("en-US")}</p>
             <p>Zodiac: {selectedMember.zodiacSign}</p>
             <p>Nationality: {selectedMember.nationality}</p>
             {<LessMemberDetails />}

@@ -1,14 +1,19 @@
 import React from 'react';
-import { useState } from 'react';
+import { useState, useContext } from 'react';
+import { useParams, useNavigate } from 'react-router-dom';
+import { urlContext } from "./ContextAPI";
 
-const API_URL = 'http://localhost:8080/api';
+
 
 export default function Register({ setToken }) {
+    const API_URL = useContext(urlContext);
     const [firstName, setFirstName] = useState("");
     const [username, setUsername] = useState("");
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [error, setError] = useState(null);
+    const navigate = useNavigate();
+    const { carat_id } = useParams();
 
     async function handleSubmit(event) {
         event.preventDefault();
@@ -19,11 +24,11 @@ export default function Register({ setToken }) {
             setError('Password requires at least 8 characters', error);
         } else {
             try {
-                const response = await fetch(`${API_URL}/register`, {
+                const response = await fetch(`${API_URL}/carat/register`, {
                     method: "POST",
                     headers: { "Content-Type": "application/json" },
                     body: JSON.stringify({
-                        firstname: firstName,
+                        first_name: firstName,
                         username: username,
                         email: email,
                         password: password,
@@ -33,12 +38,14 @@ export default function Register({ setToken }) {
                 const result = await response.json();
                 console.log(result);
                 setToken(result.token);
+                console.log(result.token)
 
-                if(token) {
+                if(result.token) {
                 setFirstName("");
                 setUsername("");
                 setEmail("");
                 setPassword(""); 
+                navigate('/carat/login');
                 }
 
             } catch(error) {
@@ -69,7 +76,7 @@ export default function Register({ setToken }) {
                     }} />
                 </label><br />
                 <label>
-                    Password: <input type='text' onChange={(event) => {
+                    Password: <input type='password' onChange={(event) => {
                         setPassword(event.target.value)
                     }} />
                 </label><br /><br />

@@ -1,9 +1,10 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useContext } from "react";
 import SeeMemberDetails from "./button components/SeeMemberDetails";
+import { urlContext } from "./ContextAPI";
 
-const API_URL = "http://localhost:8080/api";
 
 export default function Members({ token }) {
+  const API_URL = useContext(urlContext);
     const [member, setMember] = useState([]);
 
     useEffect(() => {

@@ -1,11 +1,13 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useContext } from "react";
 import React from "react";
-import { useParams, useNavigate } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import LessAlbumDetails from "./button components/LessAlbumDetails";
+import { urlContext } from "./ContextAPI";
 
-const API_URL = "http://localhost:8080/api"
 
-export default function SingleAlbum() {
+
+export default function SingleAlbum({ token }) {
+    const API_URL = useContext(urlContext);
     const [selectedAlbum, setSelectedAlbum] = useState({});
     const { album_id } = useParams();
 
@@ -28,8 +30,8 @@ export default function SingleAlbum() {
     <>
     <div id='single-album'>
         <h3>{selectedAlbum.title}</h3>
-        <img src={selectedAlbum.image} alt={selectedAlbum.title} />
-        <p>Released: {selectedAlbum.releaseDate}</p>
+        <img id="album-photo" src={selectedAlbum.image} alt={selectedAlbum.title} />
+        <p>Released: {new Date(selectedAlbum.releaseDate).toLocaleDateString("en-US")}</p>
         <p>{selectedAlbum.description}</p>
         <a href={selectedAlbum.listenLink}>Listen on Spotify</a><br />
         {<LessAlbumDetails />}
