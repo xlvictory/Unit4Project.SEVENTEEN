@@ -9,6 +9,7 @@ body {
     margin-bottom: 25px;
     text-align: center;
     background-color: 	#b4c8ea;
+    box-shadow: 8px 8px 8px #303030;
 }
 
 #members > img {
@@ -50,6 +51,7 @@ body {
   margin-bottom: 25px;
   text-align: center;
   background-color: 	#b4c8ea;
+  box-shadow: 8px 8px 8px #303030;
 }
 
 #albums > h4 {
@@ -68,3 +70,97 @@ body {
     padding: 10px;
     justify-content: space-around;
   }
+
+  .bongee >img {
+    height: 150px;
+    width: 150px;
+  }
+
+.bongee {
+text-align: center;
+  }
+
+.diamond {
+    height: 50px;
+    width: 50px;
+    margin-bottom: -10px;
+  }
+
+#links {
+    text-align: right;
+  }
+
+.home {
+  margin: 5px;
+}
+
+.members {
+  margin: 10px;
+}
+
+.albums {
+  margin: 5px;
+}
+
+.mvs {
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid #f7cac9;
+  background-color: #f7cac9;
+  color: aliceblue;
+  padding: 5px;
+  }
+/* 
+  #nav-container { 
+
+  } */
+  
+  #logo {
+    background-color: #91A8D0;
+    border: 20px #91A8D0;
+    border-image: url(https://media.istockphoto.com/id/1059929152/vector/marble-paper-texture-imitation-suminagashi-ink-stains-marbling-background.jpg?s=612x612&w=0&k=20&c=auwGWZYU2aF_sh0dTdBhIkE5fyQWrSSnRxum7dTppV4=) 27 23 / 10px 30px / 1rem round space;
+    height: 120px;
+    padding-left: 30px;
+  }
+
+  #logo > h1 {
+    padding-top: 20px;
+    text-shadow: 5px 0px 8px white;
+  }
+
+  #about-container {
+    background-color:#91A8D0;
+    border: 3px solid #b4c8ea;
+    color: aliceblue;
+    padding: 30px;
+    text-align: center;
+  }
+
+  #about-container > h2 {
+color: lavender;
+  }
+
+#mvs {
+background-color: #b4c8ea;
+border: 2px solid #91A8D0;
+margin: 20px;
+padding: 30px;
+width: 425px;
+box-shadow: 8px 8px 8px #303030;
+color: aliceblue;
+}
+
+#mv-container {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+h1 {
+  color: lavenderblush;
+}

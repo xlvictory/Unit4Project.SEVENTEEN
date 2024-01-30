@@ -12,16 +12,18 @@ console.log(user);
     return (
         <> 
 
-            <div id='nav'>
+            <div id='logo'>
                 <h1>SEVENTEEN <img src={diamond} className="diamond" /></h1>
-                <Link className="home" to='/'>Home</Link>
+                <div id="links">
+                    <Link className="home" to='/'>Home</Link>
                 <Link className="members" to='/members'>Members</Link>
                 <Link className="albums" to='/albums'>Albums</Link>
                 <Link className="mvs" to='/MVs'>Music Videos</Link>
+                
             {!token ? <Link className="login" to='/carat/login'>Login</Link> : ""} 
              {token ? <Link className="acc" to={`/carat/${user.carat.carat_id}`}>Account</Link> : ""}
              {token ? <button id="logout" onClick={() => { setToken(null); navigate('/carat/login') }}>Log Out</button> : ""}
-               
+               </div>
             </div>
         </>
     )

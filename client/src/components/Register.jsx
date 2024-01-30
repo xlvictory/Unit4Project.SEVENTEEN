@@ -45,7 +45,7 @@ export default function Register({ setToken }) {
                 setUsername("");
                 setEmail("");
                 setPassword(""); 
-                navigate('/carat/login');
+                navigate(`/carat/login`);
                 }
 
             } catch(error) {

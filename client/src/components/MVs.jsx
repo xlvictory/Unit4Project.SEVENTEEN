@@ -22,17 +22,19 @@ export default function Albums() {
 
     return (
         <>
-            <div>
-                <h1>Music Videos</h1>
+        <h1>Music Videos</h1>
+            <div id='mv-container'>
+
                 {
                     musicVid.map((mv) => {
                         return (
                             <div id='mvs'>
+                                <h2>{mv.title}</h2>
                                 <iframe width="420" height="315"
                             src={mv.watchLink}>
                             </iframe>
-                                <h4>{mv.title}</h4>
-                                <p>{mv.releaseDate}</p>
+                                
+                                <p>Release Date: {new Date(mv.releaseDate).toLocaleDateString("en-US")}</p>
                             </div>
                         )
                     })
