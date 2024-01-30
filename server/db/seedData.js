@@ -153,7 +153,7 @@ const albums = [
     {
         title: "Love&Letter",
         releaseDate: "2016-04-25",
-        description: "The album includes 10 tracks and focuses on themes such as the experience of a first love.[1][3] 'Pretty U' was chosen to be the title track of the album[2] and was performed on multiple music shows by the group throughout the following two and a half months. During this time period, the group earned their first two consecutive wins on Show Champion. Their first win was on May 4, 2016, followed by a second win on May 11, 2016. Some tracks on the album are special versions of songs previously released by the group, but sung by the three teams that make up the group respectively.",
+        description: "The album includes 10 tracks and focuses on themes such as the experience of a first love.'Pretty U' was chosen to be the title track of the album and was performed on multiple music shows by the group throughout the following two and a half months. During this time period, the group earned their first two consecutive wins on Show Champion. Their first win was on May 4, 2016, followed by a second win on May 11, 2016. Some tracks on the album are special versions of songs previously released by the group, but sung by the three teams that make up the group respectively.",
         listenLink: "https://open.spotify.com/album/50BrkBakrLWufmTLjCVBwn",
         image: "https://upload.wikimedia.org/wikipedia/en/d/de/Seventeen_-_Love_and_Letter.jpg"
     },
